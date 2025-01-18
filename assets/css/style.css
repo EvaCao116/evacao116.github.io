@@ -19,7 +19,7 @@ font-family: 'Poppins', sans-serif;
 7.  Experience
 8.  Profiles
 9.  Portfolio
-10. Clients
+10. HCI
 11. Contact
 
 /*-------------------------------------
@@ -528,9 +528,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }/*.isotope-overlay*/
 
 /*-------------------------------------
-        10. Clients
+        10. HCI
 --------------------------------------*/
-.clients {padding-top: 50px;}
+.HCI {padding-top: 50px;}
 .clients-area {
     display: flex;
     align-items: center;
