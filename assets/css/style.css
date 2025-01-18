@@ -223,9 +223,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     letter-spacing: 1px;
 }
 .header-text a {
-    width: 120px;
-    height: 40px;
-    line-height: 40px;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
     border-radius: 3px;
     text-transform: capitalize;
     color: #fff;
