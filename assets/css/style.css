@@ -120,7 +120,7 @@ nav.navbar.bootsnav {
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
     display: inline-block;
     color: #d92cf9;
-    font-size: 1.6vw; 
+    font-size: 20px; 
     font-weight: 600;
     padding: 33px 0px 57px;
     text-transform: uppercase;
@@ -129,7 +129,7 @@ nav.navbar.bootsnav {
 
 /*.nav li*/
 nav.navbar.bootsnav ul.nav > li > a {
-    font-size: 1.8vw;
+    font-size: 16px;
     font-weight: 400;
     text-transform:uppercase;
     -webkit-transition: 0.3s linear; 
@@ -211,7 +211,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*.header-text-area*/
 .header-text h2 {
     color: #fff;
-    font-size: 1.9vw;
+    font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1;
@@ -219,7 +219,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 .header-text h2 span {color: #d92cf9;}
 .header-text p {
     color: #fff;
-    font-size: 1.2vw;
+    font-size: 10px;
     font-weight: 300;
     text-transform: uppercase;
     margin: 10px 0 20px;
@@ -250,20 +250,20 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 --------------------------------------*/
 .about {padding: 50px 0 100px;}
 .section-heading h2 {
-    font-size: 1.9vw; 
+    font-size: 20px; 
     margin-bottom: 20px; 
 }
 .about-content {padding-top: 50px;}
 
 /*.single-about-txt*/
 .single-about-txt h3 {
-    font-size:1.7vw;
+    font-size:18px;
     color: #3c4258;
     text-transform: initial;
     line-height: 1.8;
 }
 .single-about-txt p {
-    font-size: 1.2vw;
+    font-size: 16px;
     color: #999fb3;
     padding: 35px 0 43px;
     border-bottom: 1px solid #999fb3;
@@ -273,7 +273,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 }
 .single-about-add-info h3 {
     color: #636a82;
-    font-size: 1.5vw;
+    font-size: 16px;
     text-transform: capitalize;
 }
 .single-about-add-info p {font-weight:  300;border:  0;padding: 0;margin-top: 3px;}
@@ -293,8 +293,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 .single-about-img img {
     width: 100%;  
     height: auto; 
-    max-width: 50vw; 
-    max-height: 50vw; 
+    max-width: 500px; 
 }
 
 .about-list-icon{
@@ -363,7 +362,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     padding: 26px 0 30px;
 }
 .timeline-horizontal-border i {
-    font-size:  0.9vw;
+    font-size: 10px;
     color: #d92cf9;
     margin-right:  5px;
 }
@@ -398,7 +397,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
     font-weight: 400;
 }
 .experience-time h3 {
-    font-size: 1.5vw;
+    font-size: 16px;
     font-weight: 300;
     color: #636a82;
     margin-top: 14px;
