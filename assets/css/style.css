@@ -186,9 +186,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
         3.  Welcome-hero
 --------------------------------------*/
 .welcome-hero{
-    height: 20vw; /* Responsive height based on viewport width */
-    min-height: 30vw; /* Minimum height to ensure it doesn't shrink too much */
-    max-height: 60vw; /* Maximum height to prevent it from getting too large */
+    height: 15vw;
+    min-height: 15vw; 
+    max-height: 30vw; 
     background: url(../images/about/welcome-banner.jpg) no-repeat;
     background-size: cover;
     background-position: center;
@@ -226,7 +226,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     letter-spacing: 1px;
 }
 .header-text a {
-    width: 200px;
+    width: 15vw;
     height: 2.9vw;
     line-height: 30px;
     border-radius: 3px;
@@ -248,7 +248,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
         4.  About
 --------------------------------------*/
 .about {padding: 50px 0 100px;}
+.section-heading h2 {
+    font-size: 1.9vw; 
+    margin-bottom: 20px; 
+}
 .about-content {padding-top: 50px;}
+
 /*.single-about-txt*/
 .single-about-txt h3 {
     font-size:1.7vw;
@@ -257,7 +262,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     line-height: 1.8;
 }
 .single-about-txt p {
-    font-size: 1.5vw;
+    font-size: 1vw;
     color: #999fb3;
     padding: 35px 0 43px;
     border-bottom: 1px solid #999fb3;
@@ -286,7 +291,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 }
 .single-about-img img {
     max-width: 50vw;
-    height: 45vw;
+    height:50vw;
 }
 .about-list-icon{
     display: flex;
