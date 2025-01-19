@@ -186,8 +186,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
         3.  Welcome-hero
 --------------------------------------*/
 .welcome-hero{
-    height: 15vw;
-    min-height: 15vw; 
+    height: 20vw;
+    min-height: 20vw; 
     max-height: 30vw; 
     background: url(../images/about/welcome-banner.jpg) no-repeat;
     background-size: cover;
@@ -262,7 +262,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     line-height: 1.8;
 }
 .single-about-txt p {
-    font-size: 1vw;
+    font-size: 1.2vw;
     color: #999fb3;
     padding: 35px 0 43px;
     border-bottom: 1px solid #999fb3;
