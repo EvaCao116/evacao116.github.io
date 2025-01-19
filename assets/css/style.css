@@ -547,8 +547,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Makes the section fill the viewport height */
-    padding-top: 0; /* Remove the top padding to fully center */
+    height: 100vh; 
+    padding-top: 0; 
 }
 
 .construction-message {
@@ -557,14 +557,19 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Ensures text alignment is centered */
+    text-align: center; 
 }
 .construction-message h1 {
-    font-size: 4vw;
+    font-size: 0.4vw;
     color: #d92cf9;
 }
+
+.HCI .section-heading h2 {
+    font-size: 0.5vw; 
+    margin-bottom: 20px; 
+}
 .construction-message p {
-    font-size: 2vw;
+    font-size: 0.2vw;
 }
 
 /*-------------------------------------
