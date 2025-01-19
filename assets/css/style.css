@@ -120,7 +120,7 @@ nav.navbar.bootsnav {
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
     display: inline-block;
     color: #d92cf9;
-    font-size: 20px;
+    font-size: 1.6vw; 
     font-weight: 600;
     padding: 33px 0px 57px;
     text-transform: uppercase;
@@ -129,7 +129,7 @@ nav.navbar.bootsnav {
 
 /*.nav li*/
 nav.navbar.bootsnav ul.nav > li > a {
-    font-size: 16px;
+    font-size: 1.8vw;
     font-weight: 400;
     text-transform:uppercase;
     -webkit-transition: 0.3s linear; 
@@ -209,7 +209,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*.header-text-area*/
 .header-text h2 {
     color: #fff;
-    font-size: 20px;
+    font-size: 1.9vw;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1;
@@ -217,7 +217,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 .header-text h2 span {color: #d92cf9;}
 .header-text p {
     color: #fff;
-    font-size: 16px;
+    font-size: 1.5vw;
     font-weight: 300;
     text-transform: uppercase;
     margin: 10px 0 20px;
@@ -225,7 +225,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 }
 .header-text a {
     width: 200px;
-    height: 30px;
+    height: 2.9vw;
     line-height: 30px;
     border-radius: 3px;
     text-transform: capitalize;
@@ -249,13 +249,13 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 .about-content {padding-top: 50px;}
 /*.single-about-txt*/
 .single-about-txt h3 {
-    font-size:18px;
+    font-size:1.7vw;
     color: #3c4258;
     text-transform: initial;
     line-height: 1.8;
 }
 .single-about-txt p {
-    font-size: 16px;
+    font-size: 1.5vw;
     color: #999fb3;
     padding: 35px 0 43px;
     border-bottom: 1px solid #999fb3;
@@ -265,7 +265,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 }
 .single-about-add-info h3 {
     color: #636a82;
-    font-size: 16px;
+    font-size: 1.5vw;
     text-transform: capitalize;
 }
 .single-about-add-info p {font-weight:  300;border:  0;padding: 0;margin-top: 3px;}
@@ -283,8 +283,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     background: rgba(31,44,108,.3);
 }
 .single-about-img img {
-    max-width: 500px;
-    height: 468px;
+    max-width: 50vw;
+    height: 45vw;
 }
 .about-list-icon{
     display: flex;
@@ -294,7 +294,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     bottom: 0;
     left: 0;
     width: 109%;
-    height: 90px;
+    height: 60px;
     background: #1f2c6c;
 }
 /*.ab-list-icon */
@@ -352,7 +352,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     padding: 26px 0 30px;
 }
 .timeline-horizontal-border i {
-    font-size:  10px;
+    font-size:  0.9vw;
     color: #d92cf9;
     margin-right:  5px;
 }
@@ -387,7 +387,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
     font-weight: 400;
 }
 .experience-time h3 {
-    font-size: 16px;
+    font-size: 1.5vw;
     font-weight: 300;
     color: #636a82;
     margin-top: 14px;
@@ -543,25 +543,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
     height: auto;
     border-radius:0;
 } */
-/*-------------------------------------
-        10. HCI
---------------------------------------*/
 .HCI {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 60px 20px;
-    text-align: center;
-    background-color: #f8f9fa; /* Subtle background to differentiate */
-}
-
-.HCI .section-heading h2 {
-    font-size: 36px; /* Larger heading for prominence */
-    font-weight: 700;
-    color: #43485c;
-    text-transform: uppercase;
-    margin-bottom: 30px;
+    height: 100vh; 
+    padding-top: 0; 
 }
 
 .construction-message {
@@ -570,21 +557,20 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
-    margin: 0 auto;
+    text-align: center; 
 }
-
 .construction-message h1 {
-    font-size: 28px;
+    font-size: 1.7vw;
     color: #d92cf9;
-    margin-bottom: 15px;
 }
 
+.HCI .section-heading h2 {
+    font-size: 1.9vw; 
+    margin-bottom: 20px; 
+}
 .construction-message p {
-    font-size: 16px;
-    color: #676a81;
+    font-size: 1vw;
 }
-
 
 /*-------------------------------------
         11. Contact
