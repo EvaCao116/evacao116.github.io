@@ -530,8 +530,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
 /*-------------------------------------
         10. HCI
 --------------------------------------*/
-.HCI {padding-top: 50px;}
-.clients-area {
+/* .clients-area {
     display: flex;
     align-items: center;
     height: 250px;
@@ -543,6 +542,29 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
     width: 100%;
     height: auto;
     border-radius:0;
+} */
+.HCI {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Makes the section fill the viewport height */
+    padding-top: 0; /* Remove the top padding to fully center */
+}
+
+.construction-message {
+    padding: 20px;
+    border: 2px solid #d92cf9;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Ensures text alignment is centered */
+}
+.construction-message h1 {
+    font-size: 4vw;
+    color: #d92cf9;
+}
+.construction-message p {
+    font-size: 2vw;
 }
 
 /*-------------------------------------
