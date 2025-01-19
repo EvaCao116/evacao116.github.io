@@ -360,7 +360,7 @@ span.single-timeline-horizontal {
     display:  inline-block;
     background: #b2c1ce;
     height:  1px;
-    width: 520px;
+    width: 550px;
 }
 span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
 /*.timeline-horizontal-border*/
@@ -445,7 +445,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
     left: -3px;
     position: absolute;
     width: 100%;
-    height:500px;
+    height:550px;
     border-left:15px solid #fff;
 }
 
