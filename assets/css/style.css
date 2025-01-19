@@ -360,7 +360,7 @@ span.single-timeline-horizontal {
     display:  inline-block;
     background: #b2c1ce;
     height:  1px;
-    width: 580px;
+    width: 620px;
 }
 span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
 /*.timeline-horizontal-border*/
@@ -543,12 +543,25 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
     height: auto;
     border-radius:0;
 } */
+/*-------------------------------------
+        10. HCI
+--------------------------------------*/
 .HCI {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh; 
-    padding-top: 0; 
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f8f9fa; /* Subtle background to differentiate */
+}
+
+.HCI .section-heading h2 {
+    font-size: 36px; /* Larger heading for prominence */
+    font-weight: 700;
+    color: #43485c;
+    text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
 .construction-message {
@@ -557,20 +570,21 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center; 
-}
-.construction-message h1 {
-    font-size: 2.2vw;
-    color: #d92cf9;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-.HCI .section-heading h2 {
-    font-size: 2vw; 
-    margin-bottom: 20px; 
+.construction-message h1 {
+    font-size: 28px;
+    color: #d92cf9;
+    margin-bottom: 15px;
 }
+
 .construction-message p {
-    font-size: 1vw;
+    font-size: 16px;
+    color: #676a81;
 }
+
 
 /*-------------------------------------
         11. Contact
