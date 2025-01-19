@@ -226,6 +226,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     letter-spacing: 1px;
 }
 .header-text a {
+    font-size: 1.2vw;
     width: 15vw;
     height: 2.9vw;
     line-height: 30px;
