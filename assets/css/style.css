@@ -186,14 +186,16 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
         3.  Welcome-hero
 --------------------------------------*/
 .welcome-hero{
+    height: 20vw; /* Responsive height based on viewport width */
+    min-height: 30vw; /* Minimum height to ensure it doesn't shrink too much */
+    max-height: 60vw; /* Maximum height to prevent it from getting too large */
+    background: url(../images/about/welcome-banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    position:relative;
-    background:url(../images/about/welcome-banner.jpg)no-repeat;
-    background-size:cover;
-    background-position: center;
-    height:20vw;
+    position: relative;
     padding-top: 60px;
 }
 .welcome-hero:before{
