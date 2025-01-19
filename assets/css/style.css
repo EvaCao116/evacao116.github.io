@@ -441,7 +441,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
 }
 .timeline-single-before:before {
     content: '';
-    top: 50px;
+    top: 70px;
     left: -3px;
     position: absolute;
     width: 100%;
