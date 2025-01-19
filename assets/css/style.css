@@ -571,10 +571,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
     color: #d92cf9;
 }
 
-.HCI .section-heading h2 {
+/* .HCI .section-heading h2 {
     font-size: 1.9vw; 
     margin-bottom: 20px; 
-}
+} */
 .construction-message p {
     font-size: 1vw;
 }
