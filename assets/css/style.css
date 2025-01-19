@@ -219,14 +219,14 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 .header-text h2 span {color: #d92cf9;}
 .header-text p {
     color: #fff;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-weight: 300;
     text-transform: uppercase;
     margin: 10px 0 20px;
     letter-spacing: 1px;
 }
 .header-text a {
-    font-size: 1.2vw;
+    font-size: 1vw;
     width: 15vw;
     height: 2.9vw;
     line-height: 30px;
