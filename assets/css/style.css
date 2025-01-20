@@ -15,12 +15,10 @@ font-family: 'Poppins', sans-serif;
 3.  Welcome-hero
 4.  About me 
 5.  Education
-6.  Skill
-7.  Experience
-8.  Profiles
-9.  Portfolio
-10. HCI
-11. Contact
+6.  Experience
+7.  Portfolio
+8.  HCI
+9.  Contact
 
 /*-------------------------------------
 		1.General css (Reset code)
@@ -377,7 +375,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
 
 
 /*-------------------------------------
-        7. Experience
+        6. Experience
 -------------------------------------*/
 .experience {
     padding: 50px 0 100px;
@@ -459,7 +457,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
 .experience-time-responsive{display: none;}
 
 /*-------------------------------------
-        9. Portfolio
+        7. Portfolio
 --------------------------------------*/
 .portfolio {
     padding:  50px 0 100px;
@@ -535,21 +533,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
 }/*.isotope-overlay*/
 
 /*-------------------------------------
-        10. HCI
+        8. HCI
 --------------------------------------*/
-/* .clients-area {
-    display: flex;
-    align-items: center;
-    height: 250px;
-}
-.clients-area .item {padding: 0 25px;}
-
-.clients .clients-area .owl-carousel .owl-item img {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius:0;
-} */
 .HCI {
     display: flex;
     justify-content: center;
@@ -571,16 +556,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
     color: #d92cf9;
 }
 
-/* .HCI .section-heading h2 {
-    font-size: 1.9vw; 
-    margin-bottom: 20px; 
-} */
 .construction-message p {
     font-size: 1vw;
 }
 
 /*-------------------------------------
-        11. Contact
+        9. Contact
 --------------------------------------*/
 .contact {
     background: #f9fbfd;
