@@ -45,6 +45,10 @@ body{
 	overflow-x:hidden;
 }
 
+abbr { 
+    display: inline;
+  }
+
 a,a:hover,a:active,a:focus {
 	display:inline-block;
 	text-decoration:none;
@@ -554,12 +558,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
     text-align: center; 
 }
 .construction-message h1 {
-    font-size: 1.7vw;
+    font-size: 19px;
     color: #d92cf9;
 }
 
 .construction-message p {
-    font-size: 1vw;
+    font-size: 13px;
 }
 
 /*-------------------------------------
