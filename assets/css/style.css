@@ -552,6 +552,30 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
     height: auto; /* Adjusted for dynamic content */
 }
 
+/* Project Header Section */
+.project-header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.project-header h2 {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project-header p {
+    font-size: 18px;
+    color: #555;
+    margin: 5px 0;
+}
+
 /* Image Styling */
 .image-container img {
     max-width: 100%;
