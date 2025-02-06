@@ -17,7 +17,7 @@ font-family: 'Poppins', sans-serif;
 5.  Education
 6.  Experience
 7.  Portfolio
-8.  HCI
+8.  LOADS
 9.  Contact
 
 /*-------------------------------------
@@ -539,9 +539,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
 }/*.isotope-overlay*/
 
 /*-------------------------------------
-        8. HCI
+        8. LOADS
 --------------------------------------*/
-.HCI {
+.LOADS {
     padding: 50px 0 100px;
     border-top: 1px solid #e5ebf2;
     display: flex;
