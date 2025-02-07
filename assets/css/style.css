@@ -554,26 +554,25 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
 
 /* Project Header Section */
 .project-header {
-    text-align: center;
-    margin-bottom: 20px;
-    padding: 15px;
-    background-color: #ffffff;
+    background-color: #fff;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
     max-width: 800px;
+    margin: 0 auto;
 }
 
-.project-header h2 {
-    font-size: 24px;
+.project-header h3 {
+    font-size: 22px;
     color: #333;
-    font-weight: bold;
     margin-bottom: 10px;
 }
 
 .project-header p {
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 1.5;
     color: #555;
-    margin: 5px 0;
 }
 
 /* Image Styling */
