@@ -542,44 +542,32 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
         8. LOADS
 --------------------------------------*/
 /* Center everything in the LOADS section */
+/* Center-align text in the LOADS section */
 .LOADS {
     text-align: center;
     padding: 50px 10%;
 }
 
-/* Ensure the container doesn’t stretch too wide */
-.container {
-    max-width: 800px;
-    margin: auto;
-}
-
-/* Style headings */
+/* Ensure text is readable but not in a box */
 .LOADS h2, 
-.LOADS h3 {
-    font-size: 24px;
-    margin-bottom: 15px;
+.LOADS h3, 
+.LOADS p, 
+.LOADS ul {
+    max-width: 900px; /* Keeps lines readable */
+    margin: 0 auto 15px; /* Centers without a box */
 }
 
-/* Center the project header and problem description text */
-.project-header, 
-.problem-description, 
-.prototype-features {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-/* Image Styling - Make it part of the text */
+/* Image Styling - Float to right with text wrapping */
 .image-container {
     float: right;
     margin: 10px 0 10px 20px;
-    max-width: 250px;
+    max-width: 300px; /* Adjust for best fit */
 }
 
 .image-container img {
     width: 100%;
     border-radius: 10px;
 }
-
 
 
 /*-------------------------------------
