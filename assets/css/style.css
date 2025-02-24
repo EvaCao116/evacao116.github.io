@@ -556,13 +556,19 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
 .LOADS .ux-research-process,
 .LOADS .ux-research-analysis {
     max-width: 900px;
-    margin: 0 auto 15px;
+    margin: 0 auto 30px;
     text-align: left;
 }
 
 /* Headings can be centered if needed */
 .LOADS h2 {
     text-align: center;
+}
+
+.LOADS h3 {
+    text-align: center;
+    font-size: 28px; /* Larger h3 for section titles */
+    margin-bottom: 20px; /* Increased space below */
 }
 
 /* Image Styling - float right and allow text to wrap around */
