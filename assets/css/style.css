@@ -592,9 +592,20 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
     width: 80%;
 }
 
-.text {
-    flex: 2; /* Takes up twice the space compared to the video */
-    padding-right: 20px;
+.prototype-needs .text {
+    flex: 2; /* Take up 2/3 of the space */
+    margin-right: 20px; /* Optional: add spacing between the text and video */
+}
+
+.prototype-needs .video {
+    flex: 1; /* Take up 1/3 of the space */
+    display: flex;
+    justify-content: flex-end; /* Align video to the right */
+}
+
+.prototype-needs video {
+    max-width: 100%; /* Ensure video fits within the container */
+    height: auto; /* Adjust height proportionally */
 }
 
 
