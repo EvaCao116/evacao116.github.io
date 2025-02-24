@@ -587,6 +587,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
     border: 0;
     border-top: 2px solid #ccc; /* Light gray line */
     margin: 30px 0; /* Space above and below the line */
+    width: 80%;
 }
 
 /*-------------------------------------
