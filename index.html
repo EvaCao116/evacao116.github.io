@@ -579,11 +579,11 @@
         </div>
 		<hr>
 
-		<section id="final-requirements">
-			<h2>Final Three Requirements</h2>
+		<div class="final-requirements">
+			<h3>Final Three Requirements</h3>
 		
 			<div class="requirement">
-				<h3>View Available Machines</h3>
+				<h2>View Available Machines</h2>
 				<p><strong>Description:</strong> Users should be able to see which laundry machines are currently in-use and which are available.</p>
 				<p><strong>Prototype Feature:</strong> A real-time machine monitoring system that displays the availability of washers and dryers in the app.</p>
 				<p><strong>Rationale:</strong> Reduces stress and labor in laundry rooms by providing users with the information they need to plan their laundry times efficiently.</p>
@@ -591,7 +591,7 @@
 			</div>
 		
 			<div class="requirement">
-				<h3>Keeping Track of Laundry</h3>
+				<h2>Keeping Track of Laundry</h2>
 				<p><strong>Description:</strong> Users should be able to set a timer within the app that alerts them when their laundry is done.</p>
 				<p><strong>Prototype Feature:</strong> An easy-to-use timer feature on the home screen that notifies users when their laundry is finished, without needing to open a separate app.</p>
 				<p><strong>Rationale:</strong> Allows users to track their laundry within the app and alerts them when their laundry is done, which helps with time management and prevents machine conflicts.</p>
@@ -599,15 +599,57 @@
 			</div>
 		
 			<div class="requirement">
-				<h3>Avoiding Conflicts</h3>
+				<h2>Avoiding Conflicts</h2>
 				<p><strong>Description:</strong> Users should be able to specify how they want their laundry handled when they’re not around, such as moving it to the dryer or leaving it on a clean surface, and communicate these preferences to others.</p>
 				<p><strong>Prototype Feature:</strong> Options within the app to set laundry handling preferences and message other users, ensuring clarity and reducing conflicts.</p>
 				<p><strong>Rationale:</strong> Reduces conflicts and frustration in shared spaces by ensuring users' preferences are respected and efficient use of machines is promoted.</p>
 				<p><strong>Priority:</strong> All participants mentioned this feature, highlighting the need for communication and clarity in shared laundry spaces.</p>
 			</div>
+		</div>
 
-			<hr>
-		</section>
+		<div class="feature">
+			<div class="text">
+				<h3>View Available Machines</h3>
+				<p>Upon opening the app, users are directed to the homepage. A drop-down menu allows users to select their dorm and check machine availability. After selecting a dorm and clicking the "View Availability" button, they are taken to the Loads page, where washers and dryers' availability is displayed. Each machine shows its remaining time. If a machine is available (time remaining = 0), its time box turns green for easy identification.</p>
+			</div>
+			<div class="video">
+				<video autoplay>
+					<source src="assets/images/HCI/View Available Machines.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+		</div>
+		
+		<hr class="divider">
+	
+		<div class="feature">
+			<div class="text">
+				<h3>Keeping Track of Laundry</h3>
+				<p>Users can click the timer button on an available machine to set a timer. The timer allows customization of duration and intervals, with options to pause or cancel. While the timer runs in the background, a red notification appears on the timer button. The notification remains visible until the user manually cancels it, ensuring they don’t forget about their laundry.</p>
+			</div>
+			<div class="video">
+				<video autoplay>
+					<source src="assets/images/HCI/Keep Track of Laundry.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+		</div>
+	
+		<hr class="divider">
+	
+		<div class="feature">
+			<div class="text">
+				<h3>Avoiding Conflicts</h3>
+				<p>Before using a machine, users must set their laundry handling preferences and provide contact details. Anyone can click on a machine to check its status and interact. If the laundry owner does not return on time, others have four options: Call or message the owner (phone numbers are user-inputted, and messages redirect to a chat window). If no response, follow the owner's preset preferences: Move clothes to a dryer (option to record the dryer number). If no dryers are available, place clothes on a clean surface (option to upload a photo or description of the location).</p>
+			</div>
+			<div class="video">
+				<video autoplay>
+					<source src="assets/images/HCI/Avoid Conflicts.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+		</div>
+		
 		
     </div>
 </section>
