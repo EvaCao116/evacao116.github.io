@@ -546,8 +546,6 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
     padding: 50px 10%;
 }
 
-/* For all paragraphs, lists, and similar content: 
-   limit their width, center the block, but left-align the text */
 .LOADS p,
 .LOADS ul,
 .LOADS .project-header,
@@ -582,12 +580,6 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
     text-align: center;
     font-size: 28px; /* Larger h3 for section titles */
     margin-bottom: 20px; /* Increased space below */
-}
-
-.LOADS strong {
-    font-weight: bold; /* Make sure the boldness stays */
-    margin: 0; /* Remove any unnecessary margin or padding */
-    padding: 0; /* Remove any padding */
 }
 
 /* Image Styling - float right and allow text to wrap around */
