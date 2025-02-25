@@ -550,6 +550,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
    limit their width, center the block, but left-align the text */
 .LOADS p,
 .LOADS ul,
+.LOADS strong,
 .LOADS .project-header,
 .LOADS .problem-description,
 .LOADS .prototype-features,
