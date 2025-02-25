@@ -562,6 +562,17 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
     text-align: left;
 }
 
+.LOADS a {
+    color: #800080; /* Purple color */
+    text-decoration: none; /* Optional: removes underline from the link */
+}
+
+.LOADS a:hover {
+    color: #4b0082; /* Darker purple color on hover */
+    text-decoration: underline; /* Optional: adds underline on hover */
+}
+
+
 /* Headings can be centered if needed */
 .LOADS h2 {
     text-align: center;
