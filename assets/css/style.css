@@ -546,7 +546,6 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
     padding: 50px 10%;
 }
 
-.LOADS p,
 .LOADS ul,
 .LOADS .project-header,
 .LOADS .problem-description,
@@ -570,6 +569,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
     text-decoration: underline; /* Optional: adds underline on hover */
 }
 
+.LOADS p {
+    margin: 0; /* Remove any extra margin from paragraphs */
+    line-height: 1.6; /* Adjust line height to reduce spacing between lines */
+}
 
 /* Headings can be centered if needed */
 .LOADS h2 {
