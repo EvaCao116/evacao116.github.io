@@ -588,7 +588,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
 .LOADS hr {
     border: 0;
     border-top: 2px solid #ccc; /* Light gray line */
-    max-width: 900px;
+    max-width: 1000px;
     margin: 30px auto;
 }
 .prototype-needs .feature {
