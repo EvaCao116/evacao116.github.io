@@ -555,8 +555,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
 .LOADS .prototype-features,
 .LOADS .ux-research-process,
 .LOADS .ux-research-analysis,
-.LOADS .final-requirements,
-.LOADS .feature {
+.LOADS .final-requirements {
     max-width: 900px;
     margin: 0 auto 30px;
     text-align: left;
