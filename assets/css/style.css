@@ -555,7 +555,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
 .LOADS .prototype-features,
 .LOADS .ux-research-process,
 .LOADS .ux-research-analysis,
-.LOADS .final-requirements {
+.LOADS .final-requirements,
+.LOADS .prototype-needs {
     max-width: 900px;
     margin: 0 auto 30px;
     text-align: left;
@@ -587,8 +588,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
 .LOADS hr {
     border: 0;
     border-top: 2px solid #ccc; /* Light gray line */
-    margin: 30px 0; /* Space above and below the line */
-    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
 }
 .prototype-needs .feature {
     display: flex;
