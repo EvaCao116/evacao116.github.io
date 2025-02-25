@@ -561,27 +561,27 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
 }
 
 .LOADS a {
-    color: #800080; /* Purple color */
-    text-decoration: none; /* Optional: removes underline from the link */
+    color: #800080; 
+    text-decoration: none; 
 }
 
 .LOADS a:hover {
-    color: #4b0082; /* Darker purple color on hover */
-    text-decoration: underline; /* Optional: adds underline on hover */
+    color: #4b0082; 
+    text-decoration: underline; 
 }
 
-/* Headings can be centered if needed */
+
 .LOADS h2 {
     text-align: center;
 }
 
 .LOADS h3 {
     text-align: center;
-    font-size: 28px; /* Larger h3 for section titles */
-    margin-bottom: 20px; /* Increased space below */
+    font-size: 28px; 
+    margin-bottom: 20px; 
 }
 
-/* Image Styling - float right and allow text to wrap around */
+
 .image-container {
     float: right;
     margin: 10px 0 10px 20px;
@@ -595,23 +595,23 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
 
 .LOADS hr {
     border: 0;
-    border-top: 2px solid #ccc; /* Light gray line */
+    border-top: 2px solid #ccc; 
     max-width: 1000px;
     margin: 30px auto;
 }
 .prototype-needs .feature {
     display: flex;
-    align-items: flex-start; /* Keep top alignment consistent */
-    justify-content: flex-start; /* Prevent stretching */
-    gap: 20px; /* Add consistent spacing */
-    max-width: 900px; /* Ensure it aligns with other sections */
-    margin: 0 auto 30px; /* Center like other sections */
+    align-items: flex-start; 
+    justify-content: flex-start; 
+    gap: 20px; 
+    max-width: 900px; 
+    margin: 0 auto 30px; 
 }
 
 .prototype-needs .text {
     flex: 2;
-    margin-right: 0; /* Remove extra spacing that might push it left */
-    text-align: left; /* Ensure text stays left-aligned */
+    margin-right: 0; 
+    text-align: left; 
 }
 
 .prototype-needs .video {
@@ -621,9 +621,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
 }
 
 .prototype-needs video {
-    width: 100%; /* Make video responsive */
-    max-width: 200px; /* Restrict video width */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    max-width: 200px; 
+    height: auto; 
 }
 
 
