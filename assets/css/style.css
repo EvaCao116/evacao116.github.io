@@ -610,7 +610,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
 
 .prototype-needs video {
     width: 100%; /* Make video responsive */
-    max-width: 300px; /* Restrict video width */
+    max-width: 200px; /* Restrict video width */
     height: auto; /* Maintain aspect ratio */
 }
 
