@@ -548,6 +548,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
 
 .LOADS p,
 .LOADS ul,
+.LOADS h4,
 .LOADS .project-header,
 .LOADS .problem-description,
 .LOADS .prototype-features,
@@ -612,7 +613,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
     margin: 0 auto 30px; 
 }
 
-.prototype-needs .text {
+.prototype-needs .text,
+.ux-evaluation-tasks .task {
     flex: 2;
     margin-right: 0; 
     text-align: left; 
