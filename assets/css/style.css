@@ -646,7 +646,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    padding: 0 40px;
+    padding: 0 45px;
 }
 
 .metric {
