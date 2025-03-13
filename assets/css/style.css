@@ -632,6 +632,26 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
     height: auto; 
 }
 
+.ux-metrics {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.metrics-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.metric {
+    flex: 1;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
 
 /*-------------------------------------
         9. Contact
