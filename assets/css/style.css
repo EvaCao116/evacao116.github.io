@@ -616,7 +616,6 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
 }
 
 .prototype-needs .text,
-.improved-prototype .text,
 .ux-evaluation-tasks .task {
     flex: 2;
     margin-right: 0; 
@@ -660,6 +659,34 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
     padding: 15px;
     border-radius: 8px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.improved-prototype .feature {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: flex-start; 
+    gap: 20px; 
+    max-width: 900px; 
+    margin: 0 auto 30px; 
+}
+
+.improved-prototype .text {
+    flex: 2;
+    margin-right: 0; 
+    text-align: left; 
+}
+
+.improved-prototype .video {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.improved-prototype video {
+    width: 100%; 
+    max-width: 200px; 
+    height: auto; 
 }
 
 
