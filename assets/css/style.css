@@ -573,7 +573,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
 }
 
 
-.LOADS h2 {
+.LOADS h2,
+,.LOADS h4 {
     text-align: center;
 }
 
