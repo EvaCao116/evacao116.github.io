@@ -632,6 +632,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 380px;}
     height: auto; 
 }
 
+/* Ensure h4 inside .metric is NOT centered */
+.metrics-container .metric h4 {
+    text-align: left; /* Align to the left for proper layout */
+}
+
 .ux-metrics {
     text-align: center;
     margin-bottom: 2rem;
