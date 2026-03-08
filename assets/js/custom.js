@@ -43,16 +43,15 @@ $(document).ready(function(){
 		//=============
 
 		$('li.smooth-menu a').bind("click", function(event) {
-			event.preventDefault();
-			var anchor = $(this);
-			$('html, body').stop().animate({
-				scrollTop: $(anchor.attr('href')).offset().top - 0
-			}, 1200,'easeInOutExpo');
-		});
-		
-		$('body').scrollspy({
-			target:'.navbar-collapse',
-			offset:0
+			var href = $(this).attr('href');
+			if (href.indexOf('#') === 0) {
+				// Only smooth scroll for in-page anchor links
+				event.preventDefault();
+				$('html, body').stop().animate({
+					scrollTop: $(href).offset().top - 0
+				}, 1200, 'easeInOutExpo');
+			}
+			// Otherwise, let the browser navigate normally
 		});
 
 	// 3. Progress-bar
